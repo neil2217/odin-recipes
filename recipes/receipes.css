@@ -1,0 +1,44 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: pink;
+}
+
+#title {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#recipe-img {
+    height: 500px;
+    width: auto;
+}
+
+.subheading {
+    color:indigo
+}
+
+.description {
+    font-size: 18px;
+}
+.description .short-desc {
+    font-weight: 700;
+    background-color: crimson;
+    color: gold;
+    text-align: center;
+}
+.description.ingredients, .description.steps {
+    color: blue;
+}
+
+.description.ingredients {
+    background-color: yellow;
+}
+
+.description.steps {
+    background-color: greenyellow;
+    font-style: italic;
+}
